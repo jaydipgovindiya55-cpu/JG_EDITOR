@@ -1,0 +1,142 @@
+h1{
+    text-align: center;
+    color: rgb(5, 9, 233);
+}
+
+.parents-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 40px;
+      animation: colorChange 1s infinite;
+}
+
+.parents-title img {
+    width: 120px;
+    height: 120px;
+    object-fit:cover;
+    border-radius: 50%;
+    
+}
+
+.parents-title h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 42px;
+    color: blue;
+    animation: colorChange 1s infinite;
+
+}
+
+
+.pa-1{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange  0.99 infinite;
+}
+
+.pa-1:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-2{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-2:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-3{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-3:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-4{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-4:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-5{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-5:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-6{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+
+}
+
+.pa-6:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-7{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-7:hover{
+    color: rgb(255, 123, 0);
+}
+.pa-8{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 0.99infinite;
+}
+
+.pa-8:hover{
+    color: rgb(255, 123, 0);
+    
+
+}
+
+
+
+p {
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0%   { color: rgb(255, 0, 0); }
+    25%  { color: rgb(0, 255, 0); }
+    50%  { color: rgb(0, 0, 255); }
+    75%  { color: rgb(255, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+}
+
+
+
+.last{
+     animation: colorChange 0.99s infinite;
+}
+
+
+.pa-9{
+    color:cornflowerblue;
+    font-size: 20px;
+    animation: colorChange 7s infinite;
+    text-align: right;
+    text-decoration: double;
+}
+
+.pa-9:hover{
+    color: rgb(255, 123, 0);
+    
+
+}
